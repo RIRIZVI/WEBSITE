@@ -1,0 +1,48 @@
+
+
+.preview-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 6%;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.text {
+  max-width: 500px;
+}
+
+.text h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.text p {
+  font-size: 1rem;
+  color: #6b7280;
+  margin-bottom: 1.5rem;
+}
+
+.btn {
+  padding: 12px 20px;
+  background-color: #5d5fff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #4040cc;
+}
+
+.image  img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+ 
+}
